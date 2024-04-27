@@ -1,7 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 
 export const Login = () => {
-  const titleName = process.env.TITULO_APP;
   return (
     <View>
       <Text>{titleName}</Text>
