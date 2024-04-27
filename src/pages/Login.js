@@ -1,15 +1,14 @@
-import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import { Login } from "./src/pages/Login";
 
-export default function App() {
+export const Login = () => {
+  const titleName = process.env.TITULO_APP;
   return (
     <View>
-      <StatusBar style="auto" />
-      <Login />
+      <Text>{titleName}</Text>
+      <View></View>
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
